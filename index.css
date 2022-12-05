@@ -1,0 +1,52 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("images/table.png");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 75px;
+    color: goldenrod;
+}
+h1:hover{
+    color: red;
+}
+
+#message-el {
+    font-style: italic;
+    font-size: 48px;
+
+}
+#cards-el, #sum-el, #player-el{
+    font-size: 25px;
+}
+
+button {
+    color: #016f32;
+    width: 250px;
+    font-size: 28px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+   margin: 4px;
+}
+button:hover{
+    color: red;
+}
+.footer__copyright {
+    margin-top: 90px;
+    font-size: 1.4rem;
+    color: #aaa;
+    text-align: center;
+   
+  }
+  #footer-link{
+    text-decoration: none;
+    color: #aaa;
+  }
